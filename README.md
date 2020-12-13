@@ -1,4 +1,6 @@
-# hamlet
+# Hamlet Accountants
 website files for Hamlet
 
-[visit website][https://iftakharpy.github.io/hamlet/]
+[visit website][link]
+
+[link]:https://iftakharpy.github.io/hamlet
