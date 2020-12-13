@@ -2,6 +2,10 @@
     display: none;
 }
 
-.show {
-    display: initial;
+.margin-y-10 {
+    margin: 10px 0px;
+}
+
+.margin-x-10 {
+    margin: 0px 10px;
 }
