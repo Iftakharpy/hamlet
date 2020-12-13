@@ -9,3 +9,10 @@
 .margin-x-10 {
     margin: 0px 10px;
 }
+
+.align-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
