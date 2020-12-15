@@ -807,7 +807,8 @@ tbody {
 
 .slider-banner-container li .light-translucent-bg:after,
 .slider-banner-container li .dark-translucent-bg:after {
-	background-color: transparent;
+	/* background-color: transparent; */
+	background-color: #ec1c2452;
 }
 
 .light-translucent-bg .separator-2 {
