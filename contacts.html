@@ -111,90 +111,117 @@
         fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
          dark: dark header version e.g. <header class="header dark clearfix">
     ================ -->
-        <header class="header fixed clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
+    <header class="header fixed clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
 
-                        <!-- header-left start -->
-                        <!-- ================ -->
-                        <div class="header-left clearfix">
+                    <!-- header-left start -->
+                    <!-- ================ -->
+                    <div class="header-left clearfix">
 
-                            <!-- logo -->
-                            <div class="logo">
-                                <a href="index.html"><img src="logos/logo-lg.png" alt="Hamlet"></a>
-                            </div>
-
+                        <!-- logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="logos/logo-lg.png" alt="Hamlet"></a>
                         </div>
-                        <!-- header-left end -->
+
                     </div>
-                    <div class="col-md-9">
+                    <!-- header-left end -->
+                </div>
+                <div class="col-md-9">
 
-                        <!-- header-right start -->
+                    <!-- header-right start -->
+                    <!-- ================ -->
+                    <div class="header-right clearfix">
+
+                        <!-- main-navigation start -->
                         <!-- ================ -->
-                        <div class="header-right clearfix">
+                        <div class="main-navigation animated">
 
-                            <!-- main-navigation start -->
+                            <!-- navbar start -->
                             <!-- ================ -->
-                            <div class="main-navigation animated">
+                            <nav class="navbar navbar-default" role="navigation">
+                                <div class="container-fluid">
 
-                                 <!-- navbar start -->
-                                <!-- ================ -->
-                                <nav class="navbar navbar-default" role="navigation">
-                                    <div class="container-fluid">
-
-                                        <!-- Toggle get grouped for better mobile display -->
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        </div>
-
-                                        <!-- Collect the nav links, forms, and other content for toggling -->
-                                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li><a href="index.html" class="dropdown-toggle">Home</a></li>
-
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="services/pages/statutory.html">Statutory Accounts</a></li>
-                                                        <li><a href="services/pages/sole_trader.html">Sole Trader & Partnership Accounts</a></li>
-                                                        <li><a href="services/pages/management.html">Management Accounts</a></li>
-                                                        <li><a href="services/pages/business_plan.html">Business Plan & Projections</a></li>
-                                                        <li><a href="services/pages/comapny_formation.html">Company Formation</a></li>
-                                                        <li><a href="services/pages/self_assessment.html">Self Assessment Tax Returns</a></li>
-                                                        <li><a href="services/pages/capital_gain.html">Capital Gain Tax</a></li>
-                                                        <li><a href="services/pages/corporation.html">Corporation Tax Returns</a></li>
-                                                        <li><a href="services/pages/vat_returns.html">Vat Returns (MTD)</a></li>
-                                                        <li><a href="services/pages/payroll.html">Payroll (RTI)</a></li>
-                                                    </ul>
-                                                </li>
-
-                                                <li><a href="about_us.html" class="dropdown-toggle">About Us</a></li>
-                                                <li class=""><a href="contacts.html" class="dropdown-toggle">Contact Us</a></li>
-                                            </ul>
-                                        </div>
-
+                                    <!-- Toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
                                     </div>
-                                </nav>
-                                <!-- navbar end -->
 
-                            </div>
-                            <!-- main-navigation end -->
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <!-- Expanding nav start -->
+                                            <!-- <li class="dropdown"> -->
+                                                <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Old Services</a> -->
+                                                <!-- <ul class="dropdown-menu"> -->
+                                                    <!-- <li> -->
+                                                        <!-- <a href="#">Service 1</a> -->
+                                                    <!-- </li> -->
+
+                                                    <!-- Sub-expanding nav start -->
+                                                    <!-- <li class="dropdown "> -->
+                                                        <!-- <a href="#">Service 2</a> -->
+                                                        <!-- <ul class="dropdown-menu"> -->
+                                                            <!-- <li class="dropdown-menu-left"><a href="#">Sub-service 2.1</a></li> -->
+                                                            <!-- <li class="dropdown-menu-left"><a href="#">Sub-service 2.2</a></li> -->
+                                                        <!-- </ul> -->
+                                                    <!-- </li> -->
+                                                    <!-- Sub-expanding nav end -->
+                                                <!-- </ul> -->
+                                            <!-- </li> -->
+                                            <!-- Expanding nav end -->
+
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="services/pages/statutory.html">Statutory Accounts & Company Tax Returns</a></li>
+                                                    <li><a href="services/pages/vat_accounting.html">VAT Accounting </a></li>
+                                                    <li><a href="services/pages/self_employed.html">Self-employed Tax</a></li>
+                                                    <li><a href="services/pages/payroll.html">Payroll Services</a></li>
+                                                    <li><a href="services/pages/book_keeping.html">Bookkeeping Services</a></li>
+                                                    <li><a href="services/pages/business_startup.html">Business Start-up</a></li>
+                                                    <li class="dropdown ">
+                                                        <a href="services/pages/others.html">Other Services</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-menu-left"><a href="#">Property Accounts</a></li>
+                                                            <li class="dropdown-menu-left"><a href="#">Capital Gain Tax (CGT)</a></li>
+                                                            <li class="dropdown-menu-left"><a href="#">CIS Accounts</a></li>
+                                                            <li class="dropdown-menu-left"><a href="#">Management Accounts</a></li>
+                                                            <li class="dropdown-menu-left"><a href="#">Business Plan & Projections</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li><a href="index.html" class="dropdown-toggle">Home</a></li>
+                                            <li><a href="about_us.html" class="dropdown-toggle">About Us</a></li>
+                                            <li class=""><a href="contacts.html" class="dropdown-toggle">Contact Us</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </nav>
+                            <!-- navbar end -->
 
                         </div>
-                        <!-- header-right end -->
+                        <!-- main-navigation end -->
 
                     </div>
+                    <!-- header-right end -->
+
                 </div>
             </div>
-        </header>
-        <!-- header end -->
+        </div>
+    </header>
+    <!-- header end -->
         <!-- banner start -->
         <!-- ================ -->
         <div class="banner">
@@ -227,11 +254,13 @@
                                 <address>
                                     <label for="address">Address: <a name="address" href="https://goo.gl/maps/APqFh6JKqmZLPAXWA" target="blank">Unit-110, 8-10 Greatorex Street, London, E1 5NF</a></label>
                                     <br>
-                                    <label for="phone">Phone: <a name="phone" href="tel:07419751118">074 1975 1118</a></label>
+                                    <label for="phone">Phone: <a name="phone" href="tel:07419751118">074 1975 1118</a> (WhatsApp Available)</label>
                                     <br>
                                     <label for="phone2">Phone: <a name="phone2" href="tel:02036861693">0203 686 1693</a></label>
                                     <br>
                                     <label for="mail">Email: <a name="mail" href="mailto:info@hamletaccountants.co.uk">info@hamletaccountants.co.uk</a></label>
+                                    <br>
+                                    <label for="mail">Email: <a name="mail" href="mailto:chowdhury@hamletaccountants.co.uk">chowdhury@hamletaccountants.co.uk</a></label>
                                   </address>
                             </div>
                             <div>
@@ -366,13 +395,14 @@
                                             <li class="twitter"><a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6 col-lg-9">
                                         <ul class="list-icons">
                                             <h2>Hamlet Accountants</h2>
                                             <li><i class="fa fa-map-marker pr-10"></i> Unit-110, 8-10 Greatorex Street, London, E1 5NF</li>
-                                            <li><i class="fa fa-phone pr-10"></i> 074 1975 1118</li>
+                                            <li><i class="fa fa-phone pr-10"></i> 074 1975 1118 (WhatsApp Available)</li>
                                             <li><i class="fa fa-phone pr-10"></i> 0203 686 1693</li>
                                             <li><i class="fa fa-envelope-o pr-10"></i> info@hamletaccountants.co.uk</li>
+                                            <li><i class="fa fa-envelope-o pr-10"></i> chowdhury@hamletaccountants.co.uk</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -403,7 +433,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <p>Copyright © 2020 <a target="_blank" href="index.html">Hamlet</a>. All Rights Reserved</p>
+                            <p>Copyright © 2021 <a target="_blank" href="index.html">Hamlet</a>. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
